@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienestar del Cuidador - Manejo del Estrés</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienestar del Cuidador: Manejo del Estrés</h1>
+            <p>Herramientas para cuidar de ti, mientras cuidas de ellos.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#introduccion">Inicio</a></li>
+                <li><a href="#modulo1">Módulo 1: Reconociendo el Estrés</a></li>
+                <li><a href="#modulo2">Módulo 2: Técnicas de Manejo</a></li>
+                <li><a href="#modulo3">Módulo 3: Construyendo Resiliencia</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="introduccion" class="hero">
+            <div class="container">
+                <h2>¡Bienvenido al Espacio de tu Bienestar!</h2>
+                <p>Sabemos que tu labor es vital y demandante. Este programa está diseñado pensando en ti, para brindarte herramientas prácticas que te ayuden a gestionar el estrés y a nutrir tu propio bienestar.</p>
+                <button class="cta-button" onclick="scrollToSection('modulo1')">¡Empezar Ahora!</button>
+                
+            </div>
+        </section>
+
+        <section id="modulo1" class="module">
+            <div class="container">
+                <h2>Módulo 1: Reconociendo el Estrés en tu Vida</h2>
+                <h3>¿Qué es el Estrés y por qué es importante hablar de él?</h3>
+                <p>El estrés es una respuesta natural del cuerpo a las demandas del entorno. En tu rol de cuidador, las demandas son constantes y variadas, desde la atención a múltiples niños hasta la gestión de emociones y la comunicación con las familias. Aprender a identificar los signos del estrés es el primer paso para manejarlo eficazmente.</p>
+                <div class="content-block">
+                    <h4>Identifica tus Señales de Alerta</h4>
+                    <p>El estrés se manifiesta de diferentes maneras en cada persona. Observa estas posibles señales:</p>
+                    <ul>
+                        <li><strong>Físicas:</strong> Dolores de cabeza, tensión muscular, fatiga, problemas de sueño, cambios en el apetito.</li>
+                        <li><strong>Emocionales:</strong> Irritabilidad, ansiedad, tristeza, frustración, dificultad para concentrarse, sensación de agobio.</li>
+                        <li><strong>Conductuales:</strong> Aislamiento, cambios en el humor, disminución de la paciencia, procrastinación.</li>
+                    </ul>
+                    <div class="quiz-container">
+                        <h4>Mini-Test: ¿Cómo me siento hoy?</h4>
+                        <p>Responde sinceramente (para ti mismo):</p>
+                        <ol>
+                            <li>¿He sentido tensión en los hombros o el cuello últimamente?</li>
+                            <li>¿Me he sentido más irritable o impaciente de lo normal?</li>
+                            <li>¿Me cuesta conciliar el sueño o me despierto cansado/a?</li>
+                            <li>¿Siento que tengo demasiadas cosas que hacer y poco tiempo?</li>
+                        </ol>
+                        <button class="toggle-answers-button" data-quiz-id="quiz1">Ver Reflexión</button>
+                        <div class="quiz-answers" id="quiz1-answers">
+                            <p><strong>Reflexión:</strong> Si respondiste "sí" a una o más preguntas, es una señal de que tu cuerpo y mente podrían estar experimentando estrés. ¡No te preocupes, para eso estamos aquí!</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="modulo2" class="module">
+            <div class="container">
+                <h2>Módulo 2: Herramientas Prácticas para el Manejo Diario</h2>
+                <h3>Estrategias Efectivas para Calmar la Mente y el Cuerpo</h3>
+                <p>Ahora que sabes reconocer el estrés, es hora de equiparte con técnicas que puedes usar en tu día a día, incluso en momentos de mucha demanda.</p>
+                <div class="content-block">
+                    <h4>1. Respiración Consciente: Tu Ancla en la Tormenta</h4>
+                    <p>Una técnica sencilla y poderosa que puedes practicar en cualquier lugar. La respiración profunda ayuda a activar el sistema nervioso parasimpático, que es el encargado de la relajación.</p>
+                    <button class="modal-trigger" data-modal-id="modal-respiracion">Practicar Respiración</button>
+                </div>
+                <div class="content-block">
+                    <h4>2. Pequeñas Pausas, Grandes Beneficios</h4>
+                    <p>No necesitas mucho tiempo para recargarte. Incluso 5 minutos pueden hacer una gran diferencia.</p>
+                    <ul>
+                        <li><strong>Estiramientos suaves:</strong> Libera la tensión en cuello, hombros y espalda.</li>
+                        <li><strong>Micro-mindfulness:</strong> Presta atención plena a una acción sencilla, como beber agua o escuchar un sonido.</li>
+                        <li><strong>Un minuto de silencio:</strong> Cierra los ojos y simplemente respira.</li>
+                    </ul>
+                    
+                </div>
+                <div class="content-block">
+                    <h4>3. El Poder de la Organización y Establecimiento de Límites</h4>
+                    <p>A veces, el estrés viene de sentir que no tenemos control. Organizar tu espacio y establecer límites saludables pueden reducir significativamente la carga.</p>
+                    <ul>
+                        <li><strong>Prioriza tareas:</strong> ¿Qué es lo más importante ahora? ¿Qué puede esperar?</li>
+                        <li><strong>Delega cuando sea posible:</strong> No tienes que hacerlo todo solo/a.</li>
+                        <li><strong>Aprende a decir "no" amablemente:</strong> Protege tu tiempo y energía.</li>
+                        <li><strong>Crea rutinas de autocuidado:</strong> Bloquea tiempo para ti, aunque sea corto.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="modulo3" class="module">
+            <div class="container">
+                <h2>Módulo 3: Construyendo Resiliencia y Bienestar a Largo Plazo</h2>
+                <h3>Cultivando la Fuerza Interior para Afrontar Desafíos</h3>
+                <p>La resiliencia es la capacidad de adaptarnos y recuperarnos ante las adversidades. Se construye día a día, con hábitos y una mentalidad positiva.</p>
+                <div class="content-block">
+                    <h4>1. Conexión y Apoyo Social</h4>
+                    <p>No estás solo/a. Compartir tus experiencias y recibir apoyo es fundamental.</p>
+                    <ul>
+                        <li><strong>Habla con colegas:</strong> Compartan estrategias y desahogos.</li>
+                        <li><strong>Busca tu red de apoyo:</strong> Amigos, familiares, grupos de cuidadores.</li>
+                        <li><strong>No temas pedir ayuda profesional:</strong> Un terapeuta o consejero puede ofrecerte herramientas personalizadas.</li>
+                    </ul>
+                    
+                </div>
+                <div class="content-block">
+                    <h4>2. Nutriendo tu Cuerpo y Mente</h4>
+                    <p>Tu bienestar físico impacta directamente tu salud mental y emocional.</p>
+                    <ul>
+                        <li><strong>Alimentación saludable:</strong> Combustible para tu cuerpo y mente.</li>
+                        <li><strong>Ejercicio regular:</strong> Libera endorfinas y reduce el estrés.</li>
+                        <li><strong>Sueño de calidad:</strong> Indispensable para la recuperación y el buen humor.</li>
+                        <li><strong>Hobbies y Pasatiempos:</strong> Dedica tiempo a actividades que disfrutes y te relajen.</li>
+                    </ul>
+                </div>
+                <div class="content-block">
+                    <h4>3. Reflexión y Gratitud</h4>
+                    <p>Cambiar la perspectiva puede transformar cómo experimentas tu día a día.</p>
+                    <ul>
+                        <li><strong>Diario de gratitud:</strong> Anota 3 cosas por las que te sientas agradecido/a cada día.</li>
+                        <li><strong>Reconoce tus logros:</strong> Valora el impacto positivo que tienes en la vida de los niños.</li>
+                        <li><strong>Autocompasión:</strong> Sé amable contigo mismo/a, como lo serías con un amigo.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="module">
+            <div class="container">
+                <h2>Recursos Adicionales y Herramientas</h2>
+                <div class="content-block">
+                    <h4>Material Complementario</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Guía Rápida de Ejercicios de Estiramiento</a></li>
+                        <li><a href="#" target="_blank">Podcast: Momentos de Mindfulness para Cuidadores</a></li>
+                        <li><a href="#" target="_blank">Artículos sobre Burnout y Prevención</a></li>
+                    </ul>
+                </div>
+                <div class="content-block">
+                    <h4>Aplicaciones Recomendadas</h4>
+                    <ul>
+                        <li>**Calm / Headspace:** Aplicaciones de meditación guiada.</li>
+                        <li>**Forest:** Ayuda a concentrarse y a tomar pausas.</li>
+                    </ul>
+                </div>
+                <div class="content-block">
+                    <h4>¡Tu Feedback es Importante!</h4>
+                    <p>Ayúdanos a mejorar este programa. ¿Qué te ha parecido? ¿Qué añadirías o cambiarías?</p>
+                    <button class="cta-button" onclick="alert('¡Gracias por tu interés! Aquí podrías integrar un formulario de feedback real.')">Enviar Feedback</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Bienestar del Cuidador. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modales -->
+    <div id="modal-respiracion" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3>Ejercicio de Respiración 4-7-8</h3>
+            <p>Este ejercicio ayuda a calmar el sistema nervioso. Puedes hacerlo sentado o acostado.</p>
+            <ol>
+                <li>Inhala por la nariz contando mentalmente hasta <strong>4</strong>.</li>
+                <li>Sostén la respiración contando mentalmente hasta <strong>7</strong>.</li>
+                <li>Exhala completamente por la boca (haciendo un pequeño sonido "shhh") contando mentalmente hasta <strong>8</strong>.</li>
+            </ol>
+            <p>Repite este ciclo 3-4 veces. ¡Siente cómo la calma te invade!</p>
+            <div class="breathing-animation">
+                <div class="circle"></div>
+            </div>
+            <p class="animation-guide">Inhala... Sostén... Exhala...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
